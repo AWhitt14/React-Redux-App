@@ -9,6 +9,7 @@ export const getLaunch = () => dispatch => {
             //console.log(res);
         })
         .catch(er => {
-            console.log(er);
+            dispatch({type: 'FETCHING_FAIL', payload: er.response.message})
+            //console.log(er);
         });
 }
