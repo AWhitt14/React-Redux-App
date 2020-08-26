@@ -4,7 +4,7 @@ const initialState = {
     img: '',
     padOn: false,
     loading: false,
-
+    
 };
 
 
